@@ -1,0 +1,22 @@
+{
+  "name": "amazona",
+  "version": "1.0.0",
+  "description": "e commerce store",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "build": "cd backend && npm install  && cd ../frontend && npm install && npm run build",
+    "start": "node backend/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kennygodin/amazona_.git"
+  },
+  "author": "kenechukwu okoh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kennygodin/amazona_/issues"
+  },
+  "homepage": "https://github.com/kennygodin/amazona_#readme"
+}
