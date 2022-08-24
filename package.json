@@ -1,25 +1,21 @@
 {
   "name": "amazona",
   "version": "1.0.0",
-  "description": "e commerce store",
+  "description": "1. Introduction\r 2. Install tools\r 3. Create React App\r 4. Create Git Repository\r 5. Adding featured products\r 6. Add routing\r    1. npm i react-router-dom\r    2. create route for home screen\r    3. create route for product screen\r 7. Create node.js server\r    1. run npm init on root folder\r    2. update package. json set type: module\r    3. Add server.js to backend\r    4. npm install express\r    5. create server.js\r    6. add start command as node backend/server .js\r    7. require express\r    8. create route for / return backend is ready.\r    9. move products.js from frontend to backend.\r    10. create routes for API products.\r    11. return products\r    12. run npm start\r 8. Fetch Products from backend (using axios)\r    1. set proxy in package.json (in the frontend)\r    2. npm install axios\r    3. use state hook\r    4. use effect hook\r    5. use reducer hook\r 9. Manage state by Reducer Hook (replacing state hook to reducer hook for managing complex states)\r    1. Define reducer hook\r    2. update fetch data\r    3. get state from useReducer\r 10. Add Bootstrap UI framework\r     a. npm install react-bootstrap bootstrap\r     b. Update App.js\r 11. Create Product and Rating Component\r     a. create rating component\r     b. create product component\r     c. use rating component in product component\r 12. Create product details screen\r     a. Fetch products from backend\r     b. create 3 columns for image, info and action\r 13. Create loading and message Component\r     a. Create loading component\r     b. use spinner component\r     c. create mmessage component\r     d. create utils.js to define getError function\r 14. Implement Add to Cart\r     a. Create React Context\r     b. define reducer\r     c. create store provider\r     d. implement add to cart button click handler\r 15. Complete Add to Cart\r     a. check if item exist in cart\r     b. check count in stock in backend.\r 16. Create Cart Screen\r     a. create 2 columns\r     b. display items list\r     c. create action column\r 17. Complete cart screen\r     a. click handler for increase and decrease item\r     b. click handler for remove item\r     c. click handler for checkout.\r 18. Create Signin Screen\r     a. Create signin form\r     b. add email and password\r     c. add sign in button\r 19. Connect to MongoDB database\r     a. create atlas mongoDb database\r     b. install local mongoDB database\r     c. npm install mongoose\r     d. connect to mongoDB database\r 20. Seed sample data\r     a. Create product model\r     b. create user model\r     c. create seed route\r     d. use route in server.js\r     e. seed sample product\r 21. Seed Sample User\r     a. create user model\r     b. seed sample user\r     c. create user routes\r 22. Create SignIn backend API\r     a. create signin API\r     b. npm i jsonwebtoken\r     c. define generate token\r 23. Complete signin screen\r     a. handle submit action\r     b. save token in store and local storage\r     c. show username in header.\r 24. Create Shipping Screen\r     a. create form inputs\r     b. handle save shipping address\r     c. add checkout wizzard bar.\r 25. Create Sign Up screen.\r     a. create input forms\r     b. handle submit\r     c. create backend api\r 26. Implement select payment method screen\r     a. create input forms\r     b. handle submit\r 27. Create Place Order screen\r     a. show cart items, payment and address\r     b. handle place order action\r     c. create order api.\r 28. Implement place order action\r     a. handle place order action\r     b. create order create api\r 29. Create order screen.\r     a. Create backend api for order/:id\r     b. fetch order api from frontend\r     c. show order information in two column.\r 30. Pay order by PayPal\r     a. Generate paypal client id.\r     b. create api to return client id\r     c. install react paypal.js\r     d. use PayPalScriptProvider in index.js\r     e. use PayPalScreenReducer in order screen.\r     f. implement loadPayPalScript function\r     g. render paypal button\r     i. implement onApprove payment function\r     j. create pay order api in backend\r 31. Display Order History\r     a. Create OrderScreen\r     b. create order history api\r     c. use api in the frontend\r 32. Create Profile Screen\r     a. Get user from context\r     b. show user info\r     c. create user update api\r     d. update user info\r 33. Publish to Heroku\r     a. create and configure node project\r     b. server build folder in frontend\r     c. create heroku account\r     d. connect it to github\r     e. create mongodb atlas database\r     f. set database connection in heroku env variables\r     g. commit and push.",
   "main": "index.js",
-  "devDependencies": {},
   "scripts": {
-    "build": "cd backend && npm install  && cd ../frontend && npm install && npm run build",
-    "start": "node backend/server.js",
+    "build": "cd Backend && npm install && cd ../frontend && npm install && npm run build",
+    "start": "node Backend/server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kennygodin/amazona_.git"
+    "url": "git+https://github.com/kennygodin/amazona.git"
   },
-  "author": "kenechukwu okoh",
+  "author": "",
   "license": "ISC",
-  "engines": {
-    "node": "v16.16.0"
-  },
   "bugs": {
-    "url": "https://github.com/kennygodin/amazona_/issues"
+    "url": "https://github.com/kennygodin/amazona/issues"
   },
-  "homepage": "https://github.com/kennygodin/amazona_#readme"
+  "homepage": "https://github.com/kennygodin/amazona#readme"
 }
