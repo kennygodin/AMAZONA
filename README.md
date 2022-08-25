@@ -141,3 +141,14 @@
     e. create mongodb atlas database
     f. set database connection in heroku env variables
     g. commit and push.
+34. Add sidebar and search box
+    a. add sidebar
+    b. add search box
+35. Create Search Screen
+    a. Show filters
+    b. create api for search products
+    c. display results
+36. Create Admin Menu
+    a. define protected route component
+    b. define main route component
+    c. add menu for admin in the header
